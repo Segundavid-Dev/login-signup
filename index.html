@@ -5,10 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login and Signup Page</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- font awesome cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <p>hello world</p>
+    <div class="login__form container">
+      <div class="login__image">
+        <h1 class="login__image--title">
+          Social media shared today,tomorrow or by location
+        </h1>
+        <img src="" alt="" />
+      </div>
+      <div class="login__inputField">
+        <form action="" class="form__control">
+          <img src="./images/Logo.png" alt="form logo" class="form__logo" />
 
+          <h2 class="form__heading">Create Account</h2>
+          <p class="form__subheading">For business, band or celebrity.</p>
+
+          <div class="form__input--container">
+            <label for="firstname">First name</label>
+            <input type="text" class="firstname" id="firstname" />
+            <label for="lastname">Last name</label>
+            <input type="text" class="lastname" id="lastname" />
+          </div>
+
+          <div class="form__input--container">
+            <label for="email">email</label>
+            <input type="email" class="email" id="email" />
+            <label for="dob">Date of Birth</label>
+            <input type="date" class="date-of-birth" id="date-of-birth" />
+          </div>
+
+          <div class="form__input--container">
+            <label for="password">password</label>
+            <input type="password" class="password" id="password" />
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" class="password" id="password" />
+            <small> <a href="#">forgot password</a></small>
+          </div>
+
+          <div class="form__input--container">
+            <input type="checkbox" name="remember-me" id="remember-me" />
+            Remember me
+            <input type="checkbox" name="remember-me" id="remember-me" />
+            I Agree to all the <a href="#">Terms</a> and
+            <a href="#">Privacy policy</a>
+          </div>
+
+          <button type="submit">Create account</button>
+          <button type="submit">
+            <img
+              src="./images/iconfinder_Google_1298745 1.png"
+              alt="goggle icon"
+            />
+            sign-in with goggle
+          </button>
+
+          <p>Don't have an account<a href="#" class="log-in">Log in</a></p>
+        </form>
+      </div>
+
+      <div class="download">
+        <a href="#" class="playstore">
+          <i class="ri-google-play-fill"></i>
+          Get it on <br />
+          Google Play
+        </a>
+        <a href="#" class="appstore">
+          <i class="ri-apple-fill"></i>
+          Get in on <br />App Store
+        </a>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
