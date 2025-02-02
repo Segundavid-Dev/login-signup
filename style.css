@@ -5,7 +5,7 @@
   --blue-color: rgba(0, 122, 255, 1);
   --body-text: rgba(45, 55, 72, 1);
   --black-color: rgba(29, 29, 29, 1);
-  --black-color: rgba(255, 255, 255, 1);
+  --white-color: rgba(255, 255, 255, 1);
 }
 
 body {
@@ -14,6 +14,19 @@ body {
   font-family: var(--font-family);
 }
 
-.conatainer {
+.container {
   padding: 0 10vw;
+}
+
+.login__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login__image {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  height: 100vh;
+  max-width: 40vw;
 }
