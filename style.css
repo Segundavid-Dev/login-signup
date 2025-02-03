@@ -12,21 +12,113 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   font-family: var(--font-family);
+  line-height: 1.5;
 }
 
 .container {
-  padding: 0 10vw;
+  padding: 0 5vw;
 }
 
 .login__form {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  max-height: 100vh;
 }
 
 .login__image {
   background-color: var(--blue-color);
   color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 100vh;
-  max-width: 40vw;
+  max-width: 30vw;
+  text-align: center;
+}
+
+.login__image--title {
+  font-size: 1.3rem;
+}
+
+/* login form */
+input {
+  font-family: inherit;
+  border: 1px solid rgba(209, 209, 209, 1);
+  outline: none;
+  background: var(--white-color);
+  padding: 10px 80px 10px 10px;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 13px;
+  color: var(--body-text);
+}
+
+p {
+  font-size: 13px;
+  color: var(--body-text);
+}
+
+.form__subheading {
+  padding-bottom: 1rem;
+}
+
+.form__input--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  gap: 3rem;
+}
+
+.submit__buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 1rem;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.create__account-btn {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.submit__btn {
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--body-text);
+  color: var(--white-color);
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.log-in {
+  text-align: center;
+}
+
+.log-in a {
+  color: var(--blue-color);
+  text-decoration: none;
+}
+
+input[type="date"] {
+  width: 65%;
 }

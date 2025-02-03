@@ -17,9 +17,9 @@
         <h1 class="login__image--title">
           Social media shared today,tomorrow or by location
         </h1>
-        <img src="" alt="" />
+        <!-- <img src="./images/imgfeatures-archive 4.png" alt="" /> -->
       </div>
-      <div class="login__inputField">
+      <div class="login__inputField container">
         <form action="" class="form__control">
           <img src="./images/Logo.png" alt="form logo" class="form__logo" />
 
@@ -27,58 +27,60 @@
           <p class="form__subheading">For business, band or celebrity.</p>
 
           <div class="form__input--container">
-            <label for="firstname">First name</label>
-            <input type="text" class="firstname" id="firstname" />
-            <label for="lastname">Last name</label>
-            <input type="text" class="lastname" id="lastname" />
+            <div class="form__input--child">
+              <label for="firstname">First name</label> <br />
+              <input type="text" class="firstname" id="firstname" />
+            </div>
+            <div class="form__input--child">
+              <label for="lastname">Last name</label> <br />
+              <input type="text" class="lastname" id="lastname" />
+            </div>
           </div>
 
           <div class="form__input--container">
-            <label for="email">email</label>
-            <input type="email" class="email" id="email" />
-            <label for="dob">Date of Birth</label>
-            <input type="date" class="date-of-birth" id="date-of-birth" />
+            <div class="form__input--child">
+              <label for="email">email</label> <br />
+              <input type="email" class="email" id="email" />
+            </div>
+            <div class="form__input--child">
+              <label for="dob">Date of Birth</label> <br />
+              <input type="date" class="date-of-birth" id="date-of-birth" />
+            </div>
           </div>
 
           <div class="form__input--container">
-            <label for="password">password</label>
-            <input type="password" class="password" id="password" />
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" class="password" id="password" />
-            <small> <a href="#">forgot password</a></small>
+            <div class="form__input--child">
+              <label for="password">password</label> <br />
+              <input type="password" class="password" id="password" />
+            </div>
+            <div class="form__input--child">
+              <label for="confirm-password">Password</label> <br />
+              <input type="password" class="password" id="password" />
+            </div>
           </div>
 
-          <div class="form__input--container">
-            <input type="checkbox" name="remember-me" id="remember-me" />
-            Remember me
-            <input type="checkbox" name="remember-me" id="remember-me" />
-            I Agree to all the <a href="#">Terms</a> and
-            <a href="#">Privacy policy</a>
+          <input type="checkbox" name="remember-me" id="remember-me" />
+          <label for="remember-me">Remember me</label><br />
+          <input type="checkbox" name="agree" id="agree" />
+          <label for="agree"
+            >I Agree to all <a href="#">Terms</a> and
+            <a href="#">Privacy policy</a> </label
+          ><br />
+          <div class="submit__buttons">
+            <button type="submit" class="create__account-btn">
+              Create account
+            </button>
+            <button type="submit" class="submit__btn">
+              <img
+                src="./images/iconfinder_Google_1298745 1.png"
+                alt="goggle icon"
+              />
+              sign-in with goggle
+            </button>
           </div>
 
-          <button type="submit">Create account</button>
-          <button type="submit">
-            <img
-              src="./images/iconfinder_Google_1298745 1.png"
-              alt="goggle icon"
-            />
-            sign-in with goggle
-          </button>
-
-          <p>Don't have an account<a href="#" class="log-in">Log in</a></p>
+          <p class="log-in">Don't have an account? <a href="#">Log in</a></p>
         </form>
-      </div>
-
-      <div class="download">
-        <a href="#" class="playstore">
-          <i class="ri-google-play-fill"></i>
-          Get it on <br />
-          Google Play
-        </a>
-        <a href="#" class="appstore">
-          <i class="ri-apple-fill"></i>
-          Get in on <br />App Store
-        </a>
       </div>
     </div>
     <script src="./script.js"></script>
