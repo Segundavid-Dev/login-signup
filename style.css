@@ -126,5 +126,33 @@ button {
 }
 
 input[type="date"] {
-  width: 65%;
+  width: 93%;
+}
+
+.ri-checkbox-circle-fill {
+  color: green;
+}
+
+.ri-close-circle-fill {
+  color: red;
+}
+
+.form__input--child {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 35px;
+  display: none;
+}
+
+.status__message {
+  font-weight: 600;
+  visibility: hidden;
+}
+
+.visible {
+  visibility: inherit;
 }

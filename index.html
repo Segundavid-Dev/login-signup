@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login and Signup Page</title>
     <link rel="stylesheet" href="style.css" />
-    <!-- font awesome cdn -->
+    <!-- remix icon cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -29,18 +29,27 @@
           <div class="form__input--container">
             <div class="form__input--child">
               <label for="firstname">First name</label> <br />
-              <input type="text" class="firstname" id="firstname" />
+              <input type="text" class="firstname" id="firstname" /> <br />
+              <i class="ri-checkbox-circle-fill icon correct"></i>
+              <i class="ri-close-circle-fill icon error"></i>
+              <small class="status__message">Field cannot be left blank</small>
             </div>
             <div class="form__input--child">
               <label for="lastname">Last name</label> <br />
-              <input type="text" class="lastname" id="lastname" />
+              <input type="text" class="lastname" id="lastname" /> <br />
+              <i class="ri-checkbox-circle-fill icon correct"></i>
+              <i class="ri-close-circle-fill icon error"></i>
+              <small class="status__message">Field cannot be left blank</small>
             </div>
           </div>
 
           <div class="form__input--container">
             <div class="form__input--child">
               <label for="email">email</label> <br />
-              <input type="email" class="email" id="email" />
+              <input type="email" class="email" id="email" /> <br />
+              <i class="ri-checkbox-circle-fill icon correct"></i>
+              <i class="ri-close-circle-fill icon error"></i>
+              <small class="status__message">Field cannot be left blank</small>
             </div>
             <div class="form__input--child">
               <label for="dob">Date of Birth</label> <br />
@@ -51,11 +60,17 @@
           <div class="form__input--container">
             <div class="form__input--child">
               <label for="password">password</label> <br />
-              <input type="password" class="password" id="password" />
+              <input type="password" class="password1" id="password1" /> <br />
+              <i class="ri-checkbox-circle-fill icon correct"></i>
+              <i class="ri-close-circle-fill icon error"></i>
+              <small class="status__message">Field cannot be left blank</small>
             </div>
             <div class="form__input--child">
-              <label for="confirm-password">Password</label> <br />
-              <input type="password" class="password" id="password" />
+              <label for="confirm-password">Password confirm</label> <br />
+              <input type="password" class="password2" id="password2" /> <br />
+              <i class="ri-checkbox-circle-fill icon correct"></i>
+              <i class="ri-close-circle-fill icon error"></i>
+              <small class="status__message">Field cannot be left blank</small>
             </div>
           </div>
 
