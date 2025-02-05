@@ -126,14 +126,14 @@ button {
 }
 
 input[type="date"] {
-  width: 93%;
+  width: 100%;
 }
 
-.ri-checkbox-circle-fill {
+.correct {
   color: green;
 }
 
-.ri-close-circle-fill {
+.error {
   color: red;
 }
 
@@ -155,4 +155,8 @@ input[type="date"] {
 
 .visible {
   visibility: inherit;
+}
+
+.show {
+  display: block;
 }
