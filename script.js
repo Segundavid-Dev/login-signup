@@ -1,6 +1,7 @@
 "use strict";
 
 const submitButton = document.querySelector(".create__account-btn");
+const formControl = document.querySelector(".form__control");
 const firstNameInput = document.getElementById("firstname");
 const lastNameInput = document.getElementById("lastname");
 const emailInput = document.getElementById("email");
@@ -61,7 +62,7 @@ function emailValidation(inputValue) {
   return validEmail.test(inputValue);
 }
 
-submitButton.addEventListener("click", (e) => {
+const validConditions = formControl.addEventListener("submit", (e) => {
   e.preventDefault();
 
   // user firstname validation
@@ -101,3 +102,6 @@ submitButton.addEventListener("click", (e) => {
     removeMessage(passwordConfirmInput);
   }
 });
+
+if (validConditions) {
+}
