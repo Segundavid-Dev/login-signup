@@ -27,7 +27,7 @@ body {
 .login__form {
   display: flex;
   align-items: center;
-  max-height: 100vh;
+  height: 100vh;
 }
 
 .login__image {
@@ -159,4 +159,23 @@ input[type="date"] {
 
 .show {
   display: block;
+}
+
+/* media queries for tablets screen sizes*/
+@media screen and (max-width: 1024px) {
+  .login__image {
+    display: none;
+  }
+
+  .login__inputField {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
