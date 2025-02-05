@@ -191,6 +191,7 @@ input[type="date"] {
 
   .login__inputField {
     height: fit-content;
+    margin-top: 2rem;
   }
 
   .submit__buttons {
@@ -206,9 +207,5 @@ input[type="date"] {
 
   .log-in {
     padding-bottom: 2rem;
-  }
-
-  .form__logo {
-    padding-top: 4rem;
   }
 }
