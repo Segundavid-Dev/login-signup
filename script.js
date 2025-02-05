@@ -62,7 +62,7 @@ function emailValidation(inputValue) {
   return validEmail.test(inputValue);
 }
 
-const validConditions = formControl.addEventListener("submit", (e) => {
+formControl.addEventListener("submit", (e) => {
   e.preventDefault();
 
   // user firstname validation
@@ -102,6 +102,3 @@ const validConditions = formControl.addEventListener("submit", (e) => {
     removeMessage(passwordConfirmInput);
   }
 });
-
-if (validConditions) {
-}
