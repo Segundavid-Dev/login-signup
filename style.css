@@ -144,7 +144,7 @@ input[type="date"] {
 .icon {
   position: absolute;
   right: 1.5rem;
-  bottom: 32px;
+  bottom: 33px;
   display: none;
   font-size: 1.5rem;
 }
@@ -189,6 +189,10 @@ input[type="date"] {
     gap: 0;
   }
 
+  .login__inputField {
+    height: fit-content;
+  }
+
   .submit__buttons {
     display: grid;
     grid-template-columns: 1fr;
@@ -198,5 +202,13 @@ input[type="date"] {
 
   .create__account-btn {
     margin-bottom: 1rem;
+  }
+
+  .log-in {
+    padding-bottom: 2rem;
+  }
+
+  .form__logo {
+    padding-top: 4rem;
   }
 }
